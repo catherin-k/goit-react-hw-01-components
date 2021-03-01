@@ -1,8 +1,12 @@
 import React from 'react';
+
 import user from './task-1/user.json';
 import Profile from './task-1/Profile.js';
 
-// console.log(Profile);
+import Statistics from './task-2/Statistics';
+import statisticalData from './task-2/statistical-data.json';
+
+// console.log(statisticalData);
 
 const App = () => {
   return (
@@ -16,6 +20,7 @@ const App = () => {
         stats={user.stats}
       />
       <h2>Task-2</h2>
+      <Statistics title="Upload stats" stats={statisticalData} />
     </>
   );
 };
