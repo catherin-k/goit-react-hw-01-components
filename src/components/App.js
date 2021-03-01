@@ -6,7 +6,10 @@ import Profile from './task-1/Profile.js';
 import Statistics from './task-2/Statistics';
 import statisticalData from './task-2/statistical-data.json';
 
-// console.log(statisticalData);
+import friends from './task-3/friends.json';
+import FriendList from './task-3/FriendList';
+
+// console.log(friends);
 
 const App = () => {
   return (
@@ -21,6 +24,8 @@ const App = () => {
       />
       <h2>Task-2</h2>
       <Statistics title="Upload stats" stats={statisticalData} />
+      <h2>Task-3</h2>
+      <FriendList friends={friends} />
     </>
   );
 };
