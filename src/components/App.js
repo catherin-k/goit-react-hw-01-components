@@ -12,8 +12,6 @@ import FriendList from './task-3/FriendList';
 import transactions from './task-4/transactions.json';
 import TransactionHistory from './task-4/TransactionHistory';
 
-console.log(transactions);
-
 const App = () => {
   return (
     <>
