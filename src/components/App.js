@@ -15,6 +15,7 @@ const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
+      <h2>Task-2</h2>
     </>
   );
 };
