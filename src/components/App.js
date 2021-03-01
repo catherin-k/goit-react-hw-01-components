@@ -9,7 +9,10 @@ import statisticalData from './task-2/statistical-data.json';
 import friends from './task-3/friends.json';
 import FriendList from './task-3/FriendList';
 
-// console.log(friends);
+import transactions from './task-4/transactions.json';
+import TransactionHistory from './task-4/TransactionHistory';
+
+console.log(transactions);
 
 const App = () => {
   return (
@@ -26,6 +29,8 @@ const App = () => {
       <Statistics title="Upload stats" stats={statisticalData} />
       <h2>Task-3</h2>
       <FriendList friends={friends} />
+      <h2>Task-4</h2>
+      <TransactionHistory items={transactions} />
     </>
   );
 };
